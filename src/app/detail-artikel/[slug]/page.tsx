@@ -23,6 +23,9 @@ const DetailArtikel = () => {
     router.push("/login");
     localStorage.setItem("isLogin", "");
   };
+  const onBack = () => {
+    router.push("/");
+  };
 
   return (
     <div className="">
@@ -35,6 +38,11 @@ const DetailArtikel = () => {
         </div>
       </div>
       <div className="max-w-[1200px] px-10 mx-auto w-full">
+        <div className="mb-7 ">
+          <Button onClick={onBack} variant="link" className="text-2xl">
+            {"<"} Back
+          </Button>
+        </div>
         <p className="text-2xl font-bold">{dummyArticlesDetail?.title}</p>
         <p className="text-base font-bold">
           {dummyArticlesDetail?.publishedAt}

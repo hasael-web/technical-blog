@@ -24,7 +24,7 @@ import Link from "next/link";
 const ListArticle = () => {
   // dummyArticles
   return (
-    <div className="grid grid-cols-3 gap-y-2 gap-x-4">
+    <div className="grid grid-cols-3 gap-y-2 gap-x-4" key="article">
       {dummyArticles.map((art, idx) => (
         <Card key={idx}>
           <CardHeader>
