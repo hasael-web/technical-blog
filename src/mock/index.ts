@@ -90,3 +90,66 @@ export const dummyArticles = [
     tags: ["AI", "Web Development", "Future Trends"],
   },
 ];
+
+export const latestNews = [
+  {
+    title: "'He deserves a lot more' Verstappen backs Alonso",
+    description:
+      "Max Verstappen believes his fellow two-time world champion Fernando Alonso 'deserves a lot more' victories in Formula 1 and has backed the Spaniard.",
+    category: "Sport",
+    source: "Formula 1",
+    time: "3 hours ago",
+    readTime: "8 min read",
+    imageUrl: "path/to/image1.jpg", // Replace with actual image URL
+  },
+  {
+    title: "Liverpool hammer Leeds for first win in five games",
+    description:
+      "Mohamed Salah and Diogo Jota both scored twice as Liverpool claimed a first league win in five games by inflicting a second successive home hammering on Leeds.",
+    category: "Sport",
+    source: "BBC",
+    time: "12 hours ago",
+    readTime: "8 min read",
+    imageUrl: "path/to/image2.jpg", // Replace with actual image URL
+  },
+  {
+    title: "Papua: At least one killed in hunt for kidnapped NZ pilot",
+    description:
+      "At least one Indonesian soldier has been killed in a rebel attack while searching for a kidnapped New Zealand pilot in the Papua region, officials say.",
+    category: "Crime",
+    source: "IDN Times",
+    time: "April 17, 2023",
+    readTime: "8 min read",
+    imageUrl: "path/to/image3.jpg", // Replace with actual image URL
+  },
+  {
+    title: "Jeremy Bowen: Israel's unclear road ahead",
+    description:
+      "Tensions between Israel and the Palestinians are on the rise once more, with hopes of peace and a two-state solution as far away as ever.",
+    category: "Middle East",
+    source: "BBC",
+    time: "April 15, 2023",
+    readTime: "8 min read",
+    imageUrl: "path/to/image4.jpg", // Replace with actual image URL
+  },
+  {
+    title: "NASA's Artemis II mission: Preparations underway",
+    description:
+      "NASA is preparing for its Artemis II mission, which will send astronauts around the Moon as part of its efforts to establish a sustainable human presence on the lunar surface.",
+    category: "Science",
+    source: "NASA",
+    time: "1 day ago",
+    readTime: "7 min read",
+    imageUrl: "path/to/image5.jpg", // Replace with actual image URL
+  },
+  {
+    title: "Apple announces new AI features for iOS",
+    description:
+      "Apple has revealed its latest AI-powered features for iOS, focusing on enhanced privacy and personalized user experiences, set to launch in the next update.",
+    category: "Technology",
+    source: "Apple Newsroom",
+    time: "2 days ago",
+    readTime: "5 min read",
+    imageUrl: "path/to/image6.jpg", // Replace with actual image URL
+  },
+];
